@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+out/
+
+# CMake
+build/
+cmake-build-*/
+
+# OS junk
+.DS_Store
