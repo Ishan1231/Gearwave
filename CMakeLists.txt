@@ -37,4 +37,7 @@ target_include_directories(imgui PUBLIC
     external/imgui
     external/imgui/backends
 )
+
+target_link_libraries(imgui PUBLIC glfw glad)
+
 target_link_libraries(Gearwave PRIVATE imgui)
